@@ -1,0 +1,21 @@
+1. What do you mean by “Relative Cell Referencing” in MS Excel and “Absolute cell referencing”?
+
+A Relative cell reference changes when copying or moving the formula or cell value to a different location in the worksheet. Relative references are very useful when you have a range of cells and you want the references to relatively change as and when you copy the formula down to other cells.
+
+2. How to secure an excel workbook, demonstrate it with an example.
+
+Click Review > Protect Workbook. Note: The Windows option is available only in Excel 2007, Excel 2010, Excel for Mac 2011, and Excel 2016 for Mac. ...
+Enter a password in the Password box. ...
+Select OK, re-enter the password to confirm it, and then select OK again.
+
+3. Explain the pivot tables and their implementations.
+
+A PivotTable is an interactive way to quickly summarize large amounts of data. You can use a PivotTable to analyze numerical data in detail, and answer unanticipated questions about your data. A PivotTable is especially designed for: Querying large amounts of data in many user-friendly ways.
+
+4. Explain lookup in excel with suitable examples.
+
+Use LOOKUP, one of the lookup and reference functions, when you need to look in a single row or column and find a value from the same position in a second row or column. For example, let's say you know the part number for an auto part, but you don't know the price.
+
+5. What is Data validation, and how to implement it in Excel?
+
+Excel can restrict data entry to certain cells by using data validation, prompt users to enter valid data when a cell is selected, and display an error message when a user enters invalid data.

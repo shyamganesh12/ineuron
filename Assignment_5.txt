@@ -1,0 +1,25 @@
+
+1 . What is a ribbon in Excel?
+
+Microsoft Excel ribbon is the row of tabs and icons at the top of the Excel window that allows you to quickly find, understand and use commands for completing a certain task. It looks like a kind of complex toolbar, which it actually is.
+
+2.  What is the order of operations used for evaluating formulas in excel?
+
+
+In general, Excel's order of operation follows the acronym PEMDAS (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction) but with some customization to handle the formula syntax in a spreadsheet.
+
+3. 
+Reverse the string in the excel column and check whether the string is palindrome or not in the next column for each value.
+
+EYE - EYE - True
+EAR - RAE - False
+
+
+4. Is it possible to protect value from being copied from the cell? If yes, then how to implement it.
+
+Yes, it is possible. In order to protect your worksheet from getting copied, you need to go into Menu bar >Review > Protect sheet > Password. By entering password, you can secure your worksheet from getting copied by others.
+
+5. 
+What is the use of Name Box in MS-Excel?
+
+In Microsoft Excel, the Name Box displays the cell that is currently selected in the spreadsheet. It is located to the left of the formula bar. If a name is defined for a cell that is selected, the Name Box displays the name of the cell. You can use the Name Box to define a name for a selected cell, as well

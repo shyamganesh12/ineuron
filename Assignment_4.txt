@@ -1,0 +1,84 @@
+1.What is the benefit of Microsoft 365?
+
+Access Files Anywhere. Office 365 allows your organisation to store all the files in the cloud. 
+Secure Cloud Storage. 
+Improved Communication
+Predictable spend. 
+Business Continuity. 
+Automatic upgrades. 
+Centralised Collaboration.
+
+2.Use two datasets and perform join on specific columns.
+
+I have two pandas datasets
+
+old:
+
+|   alpha |       beta          | zeta        | id       | rand | numb|
+| ------  | ------------------  | ------------| ------   | --- -| ----|
+|   1     |        LA           |   bev       |  A100    | D    | 100 |
+|   1     |        LA           |   malib     |  C150    | Z    | 150 |
+|   2     |        NY           |   queens    |  B200    | N    | 200 |
+|   2     |        NY           |   queens    |  B200    | N    | 200 |
+|   3     |        Chic         |   lincpark  |  E300    | T    | 300 |
+|   3     |        NY           |   Bronx     |  F300    | M    | 300 |
+new:
+
+|   alpha |       beta          |    zeta        |  id   | numb |
+| ------  | ------------------  | ---------------| ------| -----|
+|   1     |        LA           |   Hwood        |  Q    | Q400 |
+|   2     |        NY           |   queens       |  B    | B200 |
+|   3     |        Chic         |   lincpark     |  D    | D300 |
+(Columns and data don't mean anything in particular, just an example).
+
+I want to merge datasets in a way such that
+
+IF old.alpha, old.beta, and old.zeta = their corresponding new columns and If old.id = new.numb, you only keep the entry from the old table. (in this case the row 2 on the old with queens would be kept as opposed to row 2 on new with queens)
+Note that rows 3 and 4 on old are the same, but we still keep both. If there were 2 duplicates of these rows in new we consider them as 1-1 corresponding. If maybe there were 3 duplicates on new of rows 3 and 4 on old, then 2 are considered copies (and we don't add them, but we would add the third when we merge them)
+
+IF old.alpha, old.beta, and old.zeta = their corresponding new columns and If old.numb is contained inside new.numb, you only keep the entry from the old table. (in this case the row 5 on the old with lincpark would be kept as opposed to row 3 on new with lincpark, because 300 is contained in new.numb)
+
+Otherwise add the new data as new data, keeping the new table's id and numb, and having null for any extra columns that the old table has (new's row 1 with hollywood)
+
+I have tried various merging methods along with the drop_duplicates method. The problem with the the latter is that I attempted to drop duplicates having the same alpha beta and zeta, but often they were deleted from the same datasource, because the rows were exactly the same.
+
+This is what ultimately needs to be shown when merging. 2 of the rows in new were duplicates, one was something to be added.
+
+|   alpha |       beta          | zeta        | id       | rand | numb|
+| ------  | ------------------  | ------------| ------   | --- -| ----|
+|   1     |        LA           |   bev       |  A100    | D    | 100 |
+|   1     |        LA           |   malib     |  C150    | Z    | 150 |
+|   2     |        NY           |   queens    |  B200    | N    | 200 |
+|   2     |        NY           |   queens    |  B200    | N    | 200 |
+|   3     |        Chic         |   lincpark  |  E300    | T    | 300 |
+|   3     |        NY           |   Bronx     |  F300    | M    | 300 |
+|   1     |        LA           |   Hwood     |  Q       |     					
+
+
+
+3 .How to perform string formatting in excel. Demonstrate it with examples.
+
+Formatting in Excel means a trick that we can use to modify the data's appearance in a worksheet. We can format the data in various ways, like we can format the font of the cells or the table with the help of the styles and format tab present in the Home tab
+
+
+4. 
+Create an advance expense distributor in excel.
+Example: Consider expenses of a person who will be entered in excel at the same time expenses must be evenly distributed among all people with the amount of money each person should return/ receive. 
+
+5. Create reports to generate mark sheets of students in excel where percentages and addition of marks should be done using formulas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

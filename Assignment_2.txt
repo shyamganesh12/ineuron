@@ -1,0 +1,42 @@
+What is macro? Create a macro to store product detail.
+
+If you have tasks in Microsoft Excel that you do repeatedly, you can record a macro to automate those tasks. A macro is an action or a set of actions that you can run as many times as you want. When you create a macro, you are recording your mouse clicks and keystrokes.
+
+2.Explain Excel formatting.
+
+Formatting in Excel means a trick that we can use to modify the data's appearance in a worksheet. We can format the data in various ways, like we can format the font of the cells or the table with the help of the styles and format tab present in the Home tab.
+
+3. Perform data analysis using Excel. List various functions available to perform data analysis in excel.
+
+CONCATENATE. =CONCATENATE is one of the easiest to learn but most powerful formulas when conducting data analysis. ...
+LEN. =LEN quickly provides the number of characters in a given cell. 
+COUNTA
+DAYS/NETWORKDAYS.
+SUMIFS.
+AVERAGEIFS. 
+VLOOKUP. 
+FIND/SEARCH.
+IFERROR
+COUNTIFS
+lEFT/RIGHT
+RANK
+MINIFS
+MAXIFS
+SUMPRODUCT
+
+4. List down excel functions and their examples.
+
+SUM
+COUNT
+COUNTA
+COUNTBLANK
+AVERAGE
+MIN Excel
+MAX Excel
+LEN Excel
+TRIM Excel
+IF Excel
+
+5. How to add annotations to a cell in Excel.
+
+Right-click the cell and then click Insert Comment (or press Shift+F2). If you're using Excel for Office 365, right-click the cell and choose New Note. Type your annotation text. Click outside the cell.
